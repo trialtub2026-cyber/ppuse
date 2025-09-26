@@ -1,4 +1,4 @@
-modules = ["nodejs-20", "web", "bash"]
+modules = ["nodejs-20", "web", "bash", "bun"]
 [agent]
 expertMode = true
 
@@ -36,3 +36,8 @@ waitForPort = 5000
 
 [workflows.workflow.metadata]
 outputType = "webview"
+
+[deployment]
+deploymentTarget = "autoscale"
+run = ["npx", "serve", "-s", "dist", "-l", "5000"]
+build = ["bun", "run", "build"]

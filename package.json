@@ -59,6 +59,7 @@
     "react-router-dom": "^6.8.1",
     "readable-stream": "^4.7.0",
     "recharts": "^2.8.0",
+    "serve": "^14.2.5",
     "sonner": "^1.0.3",
     "stream-browserify": "^3.0.0",
     "tailwind-merge": "^1.14.0",
