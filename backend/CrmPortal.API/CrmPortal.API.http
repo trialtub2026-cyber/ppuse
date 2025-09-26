@@ -1,0 +1,6 @@
+@CrmPortal.API_HostAddress = http://localhost:5137
+
+GET {{CrmPortal.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

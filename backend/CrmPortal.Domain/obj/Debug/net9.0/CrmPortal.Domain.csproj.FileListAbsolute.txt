@@ -1,0 +1,5 @@
+/home/runner/workspace/backend/CrmPortal.Domain/obj/Debug/net9.0/CrmPortal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/workspace/backend/CrmPortal.Domain/obj/Debug/net9.0/CrmPortal.Domain.AssemblyInfoInputs.cache
+/home/runner/workspace/backend/CrmPortal.Domain/obj/Debug/net9.0/CrmPortal.Domain.AssemblyInfo.cs
+/home/runner/workspace/backend/CrmPortal.Domain/obj/Debug/net9.0/CrmPortal.Domain.csproj.CoreCompileInputs.cache
+/home/runner/workspace/backend/CrmPortal.Domain/obj/Debug/net9.0/CrmPortal.Domain.sourcelink.json

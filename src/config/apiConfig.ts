@@ -82,7 +82,7 @@ export interface ApiEndpoints {
 const environments: Record<string, ApiEnvironment> = {
   development: {
     name: 'Development',
-    baseUrl: 'http://localhost:5000/api/v1',
+    baseUrl: 'http://localhost:8000/api/v1',
     timeout: 30000,
     retryAttempts: 3,
     retryDelay: 1000,
