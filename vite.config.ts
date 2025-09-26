@@ -5,8 +5,11 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
-    host: "::",
-    port: 5173,
+    host: "0.0.0.0",
+    port: 5000,
+    hmr: {
+      port: 5000
+    }
   },
   plugins: [
     react()
@@ -16,4 +19,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  define: {
+    global: 'globalThis',
+  }
 }));
